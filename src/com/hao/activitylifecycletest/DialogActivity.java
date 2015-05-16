@@ -1,4 +1,4 @@
-package com.hao.ActivityLifeCycleTest;
+package com.hao.activitylifecycletest;
 
 import com.hao.activitylifecycletest.R;
 
