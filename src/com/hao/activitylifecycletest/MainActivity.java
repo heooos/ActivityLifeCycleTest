@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		Log.d(TAG, "onCreat");
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.normal_layout);
+		setContentView(R.layout.activity_main);
 		Button startNormalActivity = (Button) findViewById(R.id.start_normal_activity);
 		Button startDialogActivity = (Button) findViewById(R.id.start_dialog_activity);
 		startNormalActivity.setOnClickListener(new OnClickListener() {
